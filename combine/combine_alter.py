@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Copyright (c) 2013 by Algis Kabaila. 
+# Copyright (c) 2010-2011, 2013 Algis Kabaila. All rights reserved.
 # This work is made available under  the terms of the 
 # Creative Commons Attribution-ShareAlike 3.0 license,
 # http://creativecommons.org/licenses/by-sa/3.0/. 
