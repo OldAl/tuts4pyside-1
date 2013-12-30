@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Copyright (c) 2013 by Algis Kabaila. 
+# Copyright (c) 2010-2011, 2013 by Algis Kabaila. 
 # This work is made available under  the terms of the 
 # Creative Commons Attribution-ShareAlike 3.0 license,
 # http://creativecommons.org/licenses/by-sa/3.0/. 
@@ -10,12 +10,11 @@
 import sys
 import platform
 
-# import PyQt4
 import PySide
 
 from PySide.QtGui import (QApplication, QMainWindow, QMessageBox,  QIcon)
 
-__version__ = '3.1.3'
+__version__ = '3.1.4'
 
 from ui_combine import Ui_MainWindow
 
@@ -26,29 +25,28 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
         self.setWindowTitle('Combine Code Blocks.')
-        self.actionShow_GPL.triggered.connect(self.showGPL)
-        self.action_About.triggered.connect(self.about)        
-#        iconToolBar = self.addToolBar("iconBar.png")         
+        self.actionShow_CCPL.triggered.connect(self.showCCPL)
+        self.action_About.triggered.connect(self.about)                
         iconToolBar = self.addToolBar('') 
 #------------------------------------------------------
 # Add icons to appear in tool bar - step 1
-        self.actionShow_GPL.setIcon(QIcon(":/showgpl.png"))
+        self.actionShow_CCPL.setIcon(QIcon(":/showgpl.png"))
         self.action_About.setIcon(QIcon(":/about.png"))
         self.action_Close.setIcon(QIcon(":/quit.png"))
 #------------------------------------------------------
 # Show a tip on the Status Bar - step 2
-        self.actionShow_GPL.setStatusTip("Show CC Licence")
+        self.actionShow_CCPL.setStatusTip("Show CCP Licence")
         self.action_About.setStatusTip("Pop up the About dialog.")
         self.action_Close.setStatusTip("Close the program.")
 #------------------------------------------------------        
-        iconToolBar.addAction(self.actionShow_GPL)
+        iconToolBar.addAction(self.actionShow_CCPL)
         iconToolBar.addAction(self.action_About)
         iconToolBar.addAction(self.action_Close)
         
-    def showGPL(self):
-        '''Read and display GPL licence.'''
-        with open('CCPL.txt') as nonamefile:
-            self.textEdit.setText(nonamefile.read())        
+    def showCCPL(self):
+        'Read and display CCPL licence.'
+        with open('CCPL.txt') as fi:                  
+            self.textEdit.setText(fi.read())        
         
     def about(self):
         '''Popup a box with about message.'''

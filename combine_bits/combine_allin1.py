@@ -8,7 +8,7 @@
 # combine.py - combination of ShowGPL, About, Close scripts   
 # The purpose of this version of program is to show implementation
 # of most code in one file - all_in_1!. The Ui_MainWindow is eliminated
-# anc does not appear in the program.
+# and does not appear in the program.
      
 import sys
 import platform
@@ -16,9 +16,9 @@ import platform
 import PySide
      
 from PySide.QtCore import QRect
-from PySide.QtGui import (QApplication, QMainWindow, QTextEdit, QPushButton,
-                         QMessageBox,  QIcon, QAction, QWidget, QGridLayout,
-                                     QTextEdit, QMenuBar, QMenu, QStatusBar)
+from PySide.QtGui import (QApplication, QMainWindow, QMessageBox,
+                          QIcon, QAction, QWidget, QGridLayout,
+                          QTextEdit, QMenuBar, QMenu, QStatusBar)
      
 __version__ = '3.0.0'
 

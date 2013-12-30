@@ -5,8 +5,8 @@
 # Creative Commons Attribution-ShareAlike 3.0 license,
 # http://creativecommons.org/licenses/by-sa/3.0/. 
 
-# combine_alter.py - combination of ShowGPL, About, Close scripts
-# The purpose of this version of program is to show alterbative
+# combine_alter.py - combination of ShowCCPL, About, Close scripts
+# The purpose of this version of program is to show alternative
 # implementation, without the use of dual inheritance.
 
 import sys

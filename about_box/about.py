@@ -11,8 +11,7 @@ import sys
 import platform
 
 import PySide
-from PySide.QtGui import (QApplication, QMainWindow, QTextEdit,
-                          QPushButton,  QMessageBox)
+from PySide.QtGui import (QApplication, QMainWindow, QMessageBox)
 
 from ui_about import Ui_MainWindow
 

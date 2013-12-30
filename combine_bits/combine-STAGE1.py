@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
-# combine.py - combination of ShowCCPL, About, Close scripts
 
 # Copyright (c) 2010-2011, 2013 Algis Kabaila. All rights reserved.
 # This work is made available under  the terms of the 
 # Creative Commons Attribution-ShareAlike 3.0 license,
 # http://creativecommons.org/licenses/by-sa/3.0/. 
 
+# combine.py - combination of ShowCCPL, About, Close partly made scripts
+
 import sys
 import platform
 
 import PySide
-from PySide.QtGui import QApplication, QMainWindow, QTextEdit,\
-                         QPushButton,  QMessageBox
+from PySide.QtGui import QApplication, QMainWindow, QMessageBox
 
-__version__ = '3.0.2'
+__version__ = '3.0.3'
 from ui_combine import Ui_MainWindow
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
-        self.actionShow_GPL.triggered.connect(self.showGPL)
+        self.actionShow_CCPL.triggered.connect(self.showCCPL)
         self.action_About.triggered.connect(self.about)        
                
-    def showGPL(self):
+    def showCCPL(self):
         '''Read and display CCPL licence.'''
-        with open('CCPL.txt') as nonamefile:
-            self.textEdit.setText(nonamefile.read())
+        with open('CCPL.txt') as fi:
+            self.textEdit.setText(fi.read())
 
     def about(self):
         '''Popup a box with about message.'''
@@ -47,4 +47,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     frame = MainWindow()
     frame.show()
-    app.exec_()
+    sys.exit(app.exec_())
