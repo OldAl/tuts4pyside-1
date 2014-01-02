@@ -65,12 +65,12 @@ endobj
 % 'R7': class PDFInfo 
 7 0 obj
 << /Author ()
- /CreationDate (D:20130424215252-10'00')
+ /CreationDate (D:20130426164927-10'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
- /Title (Tuts for PySide) >>
+ /Title (README) >>
 endobj
 % 'R8': class PDFOutlines 
 8 0 obj
@@ -84,22 +84,22 @@ endobj
 << /Dest [ 5 0 R
  /XYZ
  62.69291
- 729.0236
+ 588.6236
  0 ]
  /Next 10 0 R
  /Parent 8 0 R
- /Title (Thank You!) >>
+ /Title (Sequence) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
 10 0 obj
 << /Dest [ 5 0 R
  /XYZ
  62.69291
- 624.0236
+ 424.4236
  0 ]
  /Parent 8 0 R
  /Prev 9 0 R
- /Title (PySide Newbie Tutorials) >>
+ /Title (Under construction) >>
 endobj
 % 'R11': class PDFPages 
 11 0 obj
@@ -111,51 +111,93 @@ endobj
 % 'R12': class PDFStream 
 12 0 obj
 % page stream
-<< /Length 2303 >>
+<< /Length 2608 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 1 0 0 1 62.69291 741.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 161.5949 0 Td (Tuts for PySide) Tj T* -161.5949 0 Td ET
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 191.6149 0 Td (README) Tj T* -191.6149 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 708.0236 cm
+1 0 0 1 62.69291 707.0236 cm
 q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Thank You!) Tj T* ET
+BT 1 0 0 1 0 14 Tm .320542 Tw 12 TL /F1 10 Tf 0 0 0 rg (This text is written in the reStructuredText format. To change it to a neat pdf output, execute the following) Tj T* 0 Tw (command in a CLI window:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 666.0236 cm
+1 0 0 1 62.69291 673.8236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.027045 Tw (Thanks to all the developers of PySide, who shared their work and expertise in the PySide system and) Tj T* 0 Tw .57284 Tw (examples. Particularly thank you for your forbearance and patience when sharing your expertise with the) Tj T* 0 Tw (less experienced PySide users.) Tj T* ET
-Q
-Q
 q
-1 0 0 1 62.69291 636.0236 cm
+1 0 0 1 0 0 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .757318 Tw (I am particularly grateful to Aaron Richiger, who made many valuable suggestions and introduced me to) Tj T* 0 Tw (github. Learning is easy when expert help is at hand!) Tj T* ET
-Q
-Q
+1 0 0 1 6.6 6.6 cm
 q
-1 0 0 1 62.69291 603.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (PySide Newbie Tutorials) Tj T* ET
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
 Q
-Q
-q
-1 0 0 1 62.69291 585.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The following are small examples for real newbies:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (rst2pdf  README) Tj T* ET
+Q
+Q
+Q
 Q
 Q
 q
-1 0 0 1 62.69291 515.8236 cm
+1 0 0 1 62.69291 653.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If rst2pcf is not installed, you can install it by the following command:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 620.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (sudo apt-get install rst2pdf) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 600.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You should find that README.pdf is easier to read than plain text, including the reStructuredText.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Sequence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 549.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (It is recommended to run the programs in the following sequence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 480.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -169,38 +211,30 @@ n -6 -6 468.6898 60 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL (about box    - shows about box with os information.) Tj T* (show licence - reads and displays licence information.) Tj T* (quit prog    - provides additional button to close program.) Tj T* (combine bits - combines all of the above into a coherent small program) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL (combine-STAGE1.py) Tj T* (combine.py) Tj T* (combine_allin1.py) Tj T* (combine_alter.py) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 495.8236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The following is an example that shows how a Python code can be developed separately from its GUI.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 450.6236 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
-Q
+1 0 0 1 62.69291 436.4236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (truss        - solves statically determinate trusses, a gui example for) Tj T* (an almost real type of problems.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.059986 Tw (If you quit any time after running combine.py, you will have completed the main part of this tutorial.The) Tj T* 0 Tw .20152 Tw (following two "combine" scripts show often used alternative strategies of composing main programs. More) Tj T* 0 Tw (detailed descriptions follow.) Tj T* ET
 Q
 Q
+q
+1 0 0 1 62.69291 403.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Under construction) Tj T* ET
 Q
+Q
+q
+1 0 0 1 62.69291 385.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I apologise for the incomplete text. ak 2013-04-26) Tj T* ET
 Q
 Q
  
@@ -228,21 +262,21 @@ xref
 0000000732 00000 n
 0000001011 00000 n
 0000001167 00000 n
-0000001428 00000 n
-0000001551 00000 n
-0000001719 00000 n
-0000001884 00000 n
-0000001991 00000 n
-0000004397 00000 n
-0000004490 00000 n
+0000001419 00000 n
+0000001542 00000 n
+0000001708 00000 n
+0000001868 00000 n
+0000001975 00000 n
+0000004686 00000 n
+0000004779 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\357\270Z+z\(DD\\n\213\250urYv) (\357\270Z+z\(DD\\n\213\250urYv)] 
+ [(\006\005\303\034CSF\017_\313\200\254\240\012\373\314) (\006\005\303\034CSF\017_\313\200\254\240\012\373\314)] 
 
  /Info 7 0 R
  /Root 6 0 R
  /Size 15 >>
 startxref
-4537
+4826
 %%EOF
